@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",  
+    "module": "esnext",  
+    "moduleResolution": "node", 
+    "baseUrl": "old/src", 
+    "paths": {
+      "@/*": ["*"] 
+    },
+    "strict": true, 
+    "esModuleInterop": true 
+  },
+  "exclude": ["node_modules", "dist"]
+}
